@@ -11,9 +11,16 @@ public class LoopTypes {
 
         System.out.println(num.getClass());
 
+        //regular for loop
         for(int i = 0; i < num.length; i++) {
             if(num[i] > 3)
                 System.out.println(num[i]);
+        }
+
+        //enhanced for loop
+        for (int number: num)
+        {
+            System.out.println(number ^ 2);
         }
     }
 }

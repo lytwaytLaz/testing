@@ -1,5 +1,3 @@
-package se.lexicon.laszlo.generics_testing;
-
 import java.util.Objects;
 
 /**
