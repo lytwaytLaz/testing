@@ -3,7 +3,8 @@
  * @version 1.0
  * @since 2016-07-10
  */
-public class laszlo2 {
+public class Slartibartfast
+{
     static short x = 2;
     static short y = 10;
     public static void main(String[] args)
