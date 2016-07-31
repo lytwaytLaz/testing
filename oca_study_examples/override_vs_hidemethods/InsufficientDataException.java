@@ -10,5 +10,8 @@ public class InsufficientDataException extends Exception {
     {
         Snake plisken = new Snake();
         System.out.println(plisken.getWeight());
+
+        Reptile reptile = new Snake();
+        System.out.println(reptile.getWeight());
     }
 }

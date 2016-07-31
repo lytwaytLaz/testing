@@ -1,4 +1,4 @@
-package oca_study_examplesiInheritingvariables;
+package oca_study_examples.inheriting_variables;
 
 /**
  * @author László Hágó

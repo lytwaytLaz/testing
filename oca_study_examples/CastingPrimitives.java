@@ -5,7 +5,7 @@ package oca_study_examples;
  * @version 1.0
  * @since 2016-07-16
  */
-public class casting_primitives
+public class CastingPrimitives
 {
     public static void main(String[] args)
     {

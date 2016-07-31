@@ -9,7 +9,7 @@ class Reptile {
     protected boolean hasLegs() throws InsufficientDataException {
         throw new InsufficientDataException();
     }
-    protected double getWeight() throws Exception {
-        return 2;
+    protected static double getWeight() throws InsufficientDataException {
+        return 6;
     }
 }

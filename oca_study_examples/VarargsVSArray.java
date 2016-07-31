@@ -10,7 +10,9 @@ public class VarargsVSArray
     public static void fly (int[] lengths)
 //    public static void fly (int... lengths)
     {
-        System.out.println(lengths);
+        for(int element: lengths)
+            System.out.print(element);
+        System.out.println();
     }
 
     public static void main(String[] args)

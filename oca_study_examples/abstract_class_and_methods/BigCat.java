@@ -1,4 +1,4 @@
-package oca_study_examples.AbstractClassAndMethods;
+package oca_study_examples.abstract_class_and_methods;
 
 /**
  * @author László Hágó

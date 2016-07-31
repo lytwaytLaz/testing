@@ -1,23 +1,23 @@
-package oca_study_examples.AnonClassesLambdas;
+package oca_study_examples.anon_classes_lambdas;
 
 /**
  * @author László Hágó
  * @version 1.0
  * @since 2016-07-23
  */
-interface Speakable
+abstract class Speaker extends Exception
 {
-    void speak();
+    abstract void speak();
 }
-class ACDemo2
+class ACDemo
 {
     public static void main(final String[] args)
     {
-        new Speakable()
+        new Speaker()
         {
-            String msg = (args.length == 1) ? args[0] : "nothing to say too";
+            String msg = (args.length == 1) ? args[0] : "nothing to say";
             @Override
-            public void speak()
+            void speak()
             {
                 System.out.println(msg);
             }
