@@ -24,7 +24,7 @@ public final class Person {
 
     @Override
     public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false; // Obs, an vanlig if men utan måsvingar
+        if (o == null || getClass() != o.getClass()) return false;
 
 
         Person person = (Person) o;

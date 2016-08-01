@@ -16,6 +16,6 @@ abstract class InnerClass
                             "innerMethod_1 of the abstract class InnerClass");
     }
     //an abstract inner method (no method body), used by
-    // se.lexicon.laszlo.abstractclass_testing.AnonTest-class
+    // se.lexicon.Beeblebrox.abstractclass_testing.AnonTest-class
     public abstract void innerMethod_2();
 }

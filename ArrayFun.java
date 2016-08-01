@@ -17,5 +17,6 @@ public class ArrayFun {
         System.out.println(words.set(1, "B")) ;
 
         System.out.println(words);
+
     }
 }
