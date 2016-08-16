@@ -6,12 +6,13 @@ package oca_my_questions;
  * @since 2016-08-16
  */
 
-public class Stastastatic {
+public class Fanstatic
+{
 static { add(2); }
 static void add(int num) { System.out.print(num + " "); }
-Stastastatic() { add(5); }
+Fanstatic() { add(5); }
 static { add(4); }
 { add(6); }
-static { new Stastastatic(); }
+static { new Fanstatic(); }
 { add(8); }
 public static void main(String[] args) { } }
