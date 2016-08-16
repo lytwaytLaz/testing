@@ -1,4 +1,4 @@
-package oca_study_examples;
+package oca_my_questions;
 import static java.lang.System.*; //static import, one can use static members of the class
                                 // without the class name or instances of the class
 

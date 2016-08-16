@@ -1,4 +1,4 @@
-package oca_study_examples.OCA_question_propositions;
+package oca_my_questions;
 
 import javax.sql.rowset.serial.SerialRef;
 
