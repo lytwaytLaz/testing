@@ -5,8 +5,6 @@
  */
 public class Pnum2
 {
-    private String persNum;
-
     public static boolean Checker(String persNum)
     {
         int control;

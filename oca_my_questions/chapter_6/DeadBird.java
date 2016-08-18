@@ -1,4 +1,4 @@
-package oca_my_questions;
+package oca_my_questions.chapter_6;
 
 import javax.sql.rowset.serial.SerialRef;
 
