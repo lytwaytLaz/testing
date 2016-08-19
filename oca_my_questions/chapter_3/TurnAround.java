@@ -1,4 +1,5 @@
 package oca_my_questions.chapter_3;
+import java.util.Arrays;
 
 /**
  * @author László Hágó
@@ -7,5 +8,10 @@ package oca_my_questions.chapter_3;
  */
 public class TurnAround
 {
-
+    public static void main(String[] args)
+    {
+        int[] x = {1,2,3};
+        System.out.println(Arrays.toString(x));
+        System.out.println(Arrays.deepHashCode(x, x));
+    }
 }

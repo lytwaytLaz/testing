@@ -7,28 +7,29 @@ package oca_my_questions.chapter_3;
  */
 public class BuildMeAString
 {
-    public static String ab;
-    public static String cd = "girls";
+    public static String ab = "camel";
+    public static String cd;
     public static Boolean bool;
 
     public static void main(String[] args)
     {
         StringBuilder sb = new StringBuilder();
-        sb.append(cd);
+        sb.append(ab);
         sb.append(3.14);
         sb.append(bool);
-        sb.append(ab);
-        sb.insert(5, "BIG");
+        sb.append(cd);
+        sb.insert(5, "Case");
         System.out.println(sb);
     }
 }
 
-//A. girlsBIG3.14falsenull
-//B. girlsBIG3.14nullnull
-//C. girlsBIG3.14
-//D. Compile error on line
+//A. camelCase3.14nullnull
+//B. camelCase3.14falsenull
+//C. camelCase3.14false
+//D. camelCase3.14
 //E. Compile error on line
 //F. Compile error on line
+//G. An exception is thrown
 
 
 
