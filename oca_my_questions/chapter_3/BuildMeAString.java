@@ -5,6 +5,9 @@ package oca_my_questions.chapter_3;
  * @version 1.0
  * @since 2016-08-18
  */
+
+//What is the output of the following code?
+
 public class BuildMeAString
 {
     public static String ab = "camel";
