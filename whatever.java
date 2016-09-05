@@ -1,3 +1,11 @@
+
+import java.util.*;
+import java.util.Date;
+import java.util.List;
+
+import static java.util.Collections.binarySearch;
+import static java.util.Collections.sort;
+
 /**
  * @author László Hágó
  * @version 1.0
@@ -22,6 +30,7 @@ public class whatever
 //        System.out.println(sS == sX);
 //
 //        System.out.println(binarySearch(str, "b"));
+
 //
 //        String ssNum = "206705043293";
 //
@@ -55,6 +64,13 @@ public class whatever
         String test_2 = new String("Superfly");
         System.out.println(test_1.equals(test_2));
         System.out.println(test_1.hashCode() == test_2.hashCode());
+
+
+
+
+
+
+
     }
 
 }
